@@ -9,6 +9,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  dio: ^5.8.0+1
+  shared_preferences: ^2.5.2
+  logger: ^2.5.0
+  bloc: ^9.0.0
+  flutter_form_builder: ^10.0.1
+  form_builder_validators: ^11.1.2
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.1.0
 
 dev_dependencies:
   flutter_test:
@@ -19,11 +27,11 @@ flutter:
   fonts:
     - family: Manrope
       fonts:
-        - asset: assets/fonts/Manrope-Light.ttf
-          weight: 300
-        - asset: assets/fonts/Manrope-Regular.ttf
+        - asset: assets/fonts/Manrope/Manrope-Regular.ttf
           weight: 400
-        - asset: assets/fonts/Manrope-Bold.ttf
+        - asset: assets/fonts/Manrope/Manrope-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Manrope/Manrope-Bold.ttf
           weight: 700
 
   uses-material-design: true
